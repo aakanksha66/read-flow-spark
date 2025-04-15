@@ -1,73 +1,27 @@
-# Welcome to your Lovable project
+Read Flow Spark
+A project to efficiently read, process, and transform data using Apache Spark. This repository demonstrates how to integrate data flows with Apache Spark's powerful distributed processing capabilities.
 
-## Project info
+🚀 Overview
+This repository provides an implementation for reading and processing large datasets using Apache Spark. The goal is to show how to handle data ingestion, transformation, and writing output with the ease of Spark's API, enabling scalable and performant data pipelines.
 
-**URL**: https://lovable.dev/projects/2b7c805d-43c7-46d8-b770-a0dbd5b80bfb
+🛠 Features
+🔄 Seamless data reading from various formats (CSV, JSON, Parquet, etc.)
 
-## How can I edit this code?
+📊 Data transformations using Spark's DataFrame API
 
-There are several ways of editing your application.
+🚀 Optimized data flow for large-scale datasets
 
-**Use Lovable**
+📝 Output writing to different destinations (e.g., HDFS, local storage, S3)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/2b7c805d-43c7-46d8-b770-a0dbd5b80bfb) and start prompting.
+🧪 Example scripts for real-world Spark use cases
 
-Changes made via Lovable will be committed automatically to this repo.
+📦 Prerequisites
+Before you start, ensure that you have the following installed:
 
-**Use your preferred IDE**
+Java 8 or above
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Apache Spark (preferably 3.x+)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Hadoop (if reading/writing from HDFS or other distributed file systems)
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/2b7c805d-43c7-46d8-b770-a0dbd5b80bfb) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Python (optional, if using PySpark)
