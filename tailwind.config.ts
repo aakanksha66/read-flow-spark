@@ -18,6 +18,10 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				lexend: ['Lexend', 'sans-serif'],
+				inter: ['Inter', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -52,6 +56,16 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+                readflow: {
+                    blue: '#33C3F0',
+                    cream: '#FEF7CD',
+                    peach: '#FDE1D3',
+                    lavender: '#E5DEFF',
+                    mint: '#F2FCE2',
+                    pink: '#FFDEE2',
+                    dark: '#1A1F2C',
+                    light: '#F1F1F1',
+                },
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
